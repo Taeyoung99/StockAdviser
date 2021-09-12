@@ -1,10 +1,10 @@
-#Receive the API from tradingview for stocks
+#Receive the API from yahoofinance for stocks
 import requests
 import json
 
 r = requests.get('https://www.tradingview.com/symbols/NASDAQ-SNDL/')
-data = json.loads(r)
-print(data)
+json.load = r
+data = jsonload
 
 
 
@@ -38,5 +38,9 @@ print(data)
 
 
 #Use the webscraping to get the relevant news regarding the stocks that u got on previous step.
+
+
+
+#Make gui to show the data visually.(There are softwares for it)
 
 

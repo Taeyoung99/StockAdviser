@@ -10,11 +10,13 @@ When asking those questions, give users realistic values(such as returns within 
 Make a formula using "The intelligent investor"(And other books but for now only 1.) to see if the company is overvalued, undervalued, in a good financial position, if they can 
 generate profit etc(Factors to think about later).
 
+When users input their pesonal preference, put more weight on the logic they prefer(For example, if they're risky investors, put more weight on annual returns and make model or formula based on that)
+
+3 outcomes from user preference. Passive, Standard, Risky
 
 
-#Pseudo Code
 
-Start
+#Refer to the flowchart(To: urself)(September 28th 2021)
 
 
 

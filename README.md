@@ -14,6 +14,8 @@ When users input their pesonal preference, put more weight on the logic they pre
 
 3 outcomes from user preference. Passive, Standard, Risky
 
+Focus on how you're going to feed data and analyze them more than the code.
+
 
 
 #Refer to the flowchart(To: urself)(September 28th 2021)

@@ -1,0 +1,29 @@
+START
+
+#Input and User Preference Section
+
+USERCHOICES passive,standard,risky,skip
+  
+  DISPLAY "Welcome to " + "" + "."
+    if USERTOUCH the screen:
+      return("Before we start, What kind of investor are you?") and DISPLAY explanation for USERCHOICES
+    
+    if USERTOUCH passive:
+      USE PASSIVE LOGIC 
+    
+    elif USERTOUCH risky:
+      USE RISKY LOGIC
+    
+    else:
+      USE STANDARD LOGIC
+    
+    if USERTOUCH skip:
+      print("It's set to standard")
+        while time < 3 seconds
+  
+  if USERTOUCH USERCHOICES:
+    print("You can always go back and change your preferences in settings.")
+      while time < 3 seconds
+    
+   
+         

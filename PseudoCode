@@ -25,5 +25,11 @@ USERCHOICES passive,standard,risky,skip
     print("You can always go back and change your preferences in settings.")
       while time < 3 seconds
     
-   
+    
+#Search engine and analysis
+
+GET Api from https://www.alphavantage.co
+  USE LOGIC
+    if STOCKS = USERCHOICE LOGIC parameters
+      print(
          

@@ -8,13 +8,13 @@ ts = TimeSeries(key=api_key, output_format='pandas')
 data, meta_data = ts.get_intraday(symbol='MSFT', interval = '1min', outputsize = 'full')
 print(data)
 
-#make a loop function that runs through the list of s&p 500 stocks into symbol parameter
+#make a loop function that runs through the list of top change in percentage stocks that day and evaluate if it has potential
+#Use technical analysis
 
-sp500 = ["AAPL", "MSFT", "AMZN", "GOOGL", "FB", "GOOG", "TSLA","NVDA", "BRK.B", "JPM"
-         "JNJ", "UNH", "V", "HD", "BAC", "PG", "PYPL", "MA", "DIS", "ADBE"
-         "CRM", "NFLX", "XOM", "CMCSA", "PFE", "CSCO", "TMO", "INTC", "ACN", "PEP",
-         "VZ", "CVX", "ABT", "KO", "AVGO", "WMT", "WFC", "COST", "NKE", "MRK",
-         ""]
+topgainer = ["DWACU", "DWAC", "SGAMU", "TSC", "EAR"]
+
+
+         
 
 
 
